@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Access the first and second parameters
+first_param=$1
+second_param=$2
+
+# Print the parameters
+echo "First parameter: $first_param"
+echo "Second parameter: $second_param"

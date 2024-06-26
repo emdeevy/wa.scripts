@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Access the first and second parameters
+first_param=$1
+second_param=$2
+
+if [[ "$first_param" == "possible" && "$second_param" == "uninstall" ]]; then
+    exit 1
+fi
+
+exit 0
